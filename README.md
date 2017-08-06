@@ -30,7 +30,7 @@ Mostrando a temperatura:
 	lon = result['lon']
 	print('Pais: '+ str(pais)+'\nCidade: '+str(cidade) +'\nLatitude: '+ str(lat) + '\nLongitude: '+str(lon))
 ```
-##(Github API)
+## (Github API)[https://developer.github.com/v3/]
 API para acesso a projetos no github, muito boa para criar extensões da plataforma. Pode ser utilziada através da autenticação direto no header do cabeçalho HTTP.
 Exemplo:
 ```python
