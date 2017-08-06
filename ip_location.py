@@ -1,9 +1,8 @@
 import httplib2
 import json
 
-def getLocation(ip):
-	key = 	'ead2d1fa'
-	url = 'http://ip-api.com/json/'+ip
+def getLocation():
+	url = 'http://ip-api.com/json/'+ 'your ip'
 	print("url: "+url)
 	h = httplib2.Http()
 	response, content = h.request(url, 'GET')
